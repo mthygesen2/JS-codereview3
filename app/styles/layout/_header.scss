@@ -1,0 +1,18 @@
+.wrapper {
+  border: 1px solid black;
+  header {
+    border: 1px solid red;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 150px;
+    a {
+      text-decoration: none;
+    }
+    h1 {
+      font-family: $font-serif;
+    }
+  }
+}
