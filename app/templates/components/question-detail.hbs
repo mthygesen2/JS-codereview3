@@ -1,5 +1,21 @@
-<p>
-  {{question.comment}}
-</p>
+<div class="question-title">
+  <h1>{{question.userQuestion}}</h1>
+</div>
 
-<button {{action 'delete' question}}>Delete</button>
+  <div class="question-details">
+    <ul>
+      <li>{{question.userName}}</li>
+      <li>{{question.comment}}</li>
+    </ul>
+  </div>
+
+  <div class="answerSection">
+    <ul>
+      {{#each question.answers as |answer|}}
+        {{answer-tile answer=answer update="update" delete="delete"}}
+      {{/each}}
+    </ul>
+
+  </div>
+
+{{new-answer question=question save="save"}}
