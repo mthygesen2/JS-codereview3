@@ -1,8 +1,7 @@
+<h2>Hello Hello</h2>
+
 <ul>
   {{#each model as |question|}}
-     <li>{{question.userQuestion}}</li>
-     <ul>
-       <li>{{question.userName}}</li>
-       <li>{{question.comment}}</li>
+    {{question-tile question=question update="update"}}
   {{/each}}
 </ul>
