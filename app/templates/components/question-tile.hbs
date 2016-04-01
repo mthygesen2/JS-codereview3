@@ -1,9 +1,9 @@
 <li>
-  <!-- {{#link-to 'question' question_id}} -->
+{{#link-to 'question' question.id}}
   <h3>{{question.userQuestion}}</h3>
-  <!-- {{/link-to}} -->
-<p>This is their name {{question.userName}}</p>
-{{update-question question=question update="update"}}
+{{/link-to}}
+  <p>This is their name {{question.userName}}</p>
+  {{update-question question=question update="update"}}
 
-  <button {{action 'delete' question}}>Delete question</button>
+  <!-- <button {{action 'delete' question}}>Delete question</button> -->
 </li>
