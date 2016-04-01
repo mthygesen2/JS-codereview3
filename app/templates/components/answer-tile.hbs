@@ -1,13 +1,15 @@
-<li>
-  <h3>{{answer.answerUserName}}</h3>
-  <p>
-    {{answer.answerContent}}
-  </p>
-  <ul>
-    {{#each model.answers as |answer|}}
-    <li>{{answer.answerUserName}}</li>
-    <li>{{answer.answerContent}}</li>
-    {{/each}}
-  </ul>
-  <button {{action 'delete' answer}}>Delete Answer</button>
-</li>
+<div class="answerTile">
+  <li>
+    <h3>{{answer.answerUserName}}</h3>
+    <p>
+      {{answer.answerContent}}
+    </p>
+    <ul>
+      {{#each model.answers as |answer|}}
+      <li>{{answer.answerUserName}}</li>
+      <li>{{answer.answerContent}}</li>
+      {{/each}}
+    </ul>
+    <button {{action 'delete' answer}}>Delete Answer</button>
+  </li>
+</div>

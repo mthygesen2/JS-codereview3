@@ -1,7 +1,8 @@
 # Js-codereview3
+####_{April 1, 2016}_
+This is a message board app template. It will let you update, ask, delete questions as well as get answers. It was for a code review for the JavaScript course at Epicodus.  
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### By _**{Mao Thygesen}**_
 
 ## Prerequisites
 
@@ -15,7 +16,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone <https://github.com/mthygesen2/JS-codereview3>` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -43,11 +44,8 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 Specify what it takes to deploy your app.
 
-## Further Reading / Useful Links
+### License
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+*{MIT}*
 
+Copyright (c) 2015 **_{Mao Thygesen}_**

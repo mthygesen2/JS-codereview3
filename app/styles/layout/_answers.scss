@@ -10,15 +10,32 @@
   li {
     line-height: 1.5em;
   }
+
 }
 
 .questionDetails {
+  max-width: 1200px;
+  width: 100%;
+    margin: auto;
   button {
     width: 150px;
     height: 25px;
   }
 }
 
+.answerTile {
+  border: 1px solid $mid-grey;
+  margin: 5px 10px 15px 0;
+  padding: 15px;
+  max-width: 900px;
+}
 .newAnswer {
   @extend %form;
+  h1 {
+    font-family: $font-serif;
+  }
+  form {
+    border: 1px solid $mid-grey;
+    padding: 15px;
+  }
 }
