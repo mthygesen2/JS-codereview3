@@ -1,18 +1,24 @@
 .wrapper {
-  border: 1px solid black;
+  display: flex;
+  min-height: 100vh;
+  flex-flow: column;
   header {
-    border: 1px solid red;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    background: white;
-    height: 150px;
+    background: url("https://s-media-cache-ak0.pinimg.com/736x/65/2e/f5/652ef50641d810cad3bf774ccbc44b4c.jpg") no-repeat center;
+    height: 200px;
     a {
       text-decoration: none;
+      color: white;
     }
     h1 {
       font-family: $font-serif;
+      font-size: 3em;
     }
+  }
+  .container {
+    flex: 1;
   }
 }

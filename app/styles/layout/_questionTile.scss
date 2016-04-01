@@ -1,0 +1,50 @@
+.questionTile {
+  display: flex;
+  flex-flow: column;
+  li a{
+    color: $mid-grey;
+  }
+  button {
+    width: 150px;
+    height: 25px;
+
+  }
+}
+
+.newQuestion {
+  h1 {
+    font-family: $font-serif;
+    color: $mid-grey;
+  }
+  label {
+    font-family: $font-serif;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    width: 250px;
+    height: 25px;
+    margin-bottom: 10px;
+  }
+  button {
+    margin-top: 10px;
+  }
+}
+
+.updateQuestion {
+  label {
+    font-family: $font-serif;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    width: 350px;
+    height: 25px;
+    margin-bottom: 10px;
+  }
+  button {
+    margin-top: 10px;
+  }
+}

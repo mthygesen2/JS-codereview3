@@ -1,4 +1,5 @@
 {{#if updateQuestionForm}}
+  <div class="updateQuestion">
   <h4>Update your Question!</h4>
     <div>
       <form>
@@ -17,8 +18,9 @@
           {{input value=comment id="comment" placeholder=question.comment}}
         </div>
         <button {{action 'update' question}}>Save</button>
-              </form>
-            </div>
-        {{else}}
-            <button {{action 'updateQuestionForm'}}>Update your question!</button>
-        {{/if}}
+      </form>
+    </div>
+  </div>
+{{else}}
+  <button {{action 'updateQuestionForm'}}>Update your question!</button>
+{{/if}}
