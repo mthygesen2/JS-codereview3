@@ -1,0 +1,8 @@
+<ul>
+  {{#each model as |question|}}
+     <li>{{question.userQuestion}}</li>
+     <ul>
+       <li>{{question.userName}}</li>
+       <li>{{question.comment}}</li>
+  {{/each}}
+</ul>
