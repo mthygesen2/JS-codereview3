@@ -6,5 +6,9 @@
   "userQuestion": "Salt",
   "userName": " Francisco",
   "comment": "House"
+  }],
+  "answers": [{
+    "answerUserName": "Mao",
+    "answerUser": "This is an answer"
   }]
 }
