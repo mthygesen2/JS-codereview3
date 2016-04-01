@@ -1,21 +1,21 @@
-<div class="question-title">
-  <h1>{{question.userQuestion}}</h1>
-</div>
+<div class="questionDetails">
+  <div class="question-title">
+    <h1>{{question.userQuestion}}</h1>
+  </div>
 
   <div class="question-details">
     <ul>
-      <li>{{question.userName}}</li>
-      <li>{{question.comment}}</li>
+      <li>User: {{question.userName}}</li>
+      <li>Comments: {{question.comment}}</li>
     </ul>
   </div>
-
+  {{new-answer question=question save="save"}}
   <div class="answerSection">
     <ul>
       {{#each question.answers as |answer|}}
         {{answer-tile answer=answer update="update" delete="delete"}}
       {{/each}}
     </ul>
-
   </div>
 
-{{new-answer question=question save="save"}}
+</div>

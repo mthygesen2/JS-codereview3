@@ -11,3 +11,18 @@ $light-orange: #FDC083;
 $orange: #FD9484;
 
 $mid-grey: #5E6166;
+
+
+%form {
+  label {
+    font-family: $font-serif;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    width: 250px;
+    height: 25px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,15 +1,13 @@
 <li>
-<h3>{{answer.answerUserName}}</h3>
-<p>
-  {{answer.answerContent}}
-</p>
-<!-- {{update-answer answer=answer update="update"}} -->
-<ul>
-  {{#each model.answers as |answer|}}
-  <li>{{answer.answerUserName}}</li>
-  <li>{{answer.answerContent}}</li>
-  {{/each}}
-</ul>
-
-<button {{action 'delete' answer}}>Delete Answer</button>
+  <h3>{{answer.answerUserName}}</h3>
+  <p>
+    {{answer.answerContent}}
+  </p>
+  <ul>
+    {{#each model.answers as |answer|}}
+    <li>{{answer.answerUserName}}</li>
+    <li>{{answer.answerContent}}</li>
+    {{/each}}
+  </ul>
+  <button {{action 'delete' answer}}>Delete Answer</button>
 </li>

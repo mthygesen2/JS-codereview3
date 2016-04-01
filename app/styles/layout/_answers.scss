@@ -1,0 +1,24 @@
+.question {
+  padding: 20px;
+}
+.question-title {
+  h1 {
+  font-family: $font-serif;
+  }
+}
+.question-details {
+  li {
+    line-height: 1.5em;
+  }
+}
+
+.questionDetails {
+  button {
+    width: 150px;
+    height: 25px;
+  }
+}
+
+.newAnswer {
+  @extend %form;
+}
