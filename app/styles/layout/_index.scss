@@ -1,11 +1,15 @@
-
-.newQuestion {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  width: 90%;
-  margin: 15px auto;
-  button {
-    width: 250px;
+.indexWrapper {
+  ul {
+    margin-right: 20px;
+  }
+  .newQuestion {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 90%;
+    margin: 15px auto;
+    button {
+      width: 250px;
+    }
   }
 }
