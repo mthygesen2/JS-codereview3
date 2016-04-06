@@ -1,4 +1,4 @@
-# Js-codereview3
+# Message Board
 ####_April 1, 2016_
 This is a message board app template using Ember. It will let you update, ask, delete questions as well as get answers. It was made for a code review for the JavaScript course at Epicodus.  
 
