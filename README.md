@@ -1,8 +1,9 @@
 # Js-codereview3
-####_{April 1, 2016}_
-This is a message board app template. It will let you update, ask, delete questions as well as get answers. It was for a code review for the JavaScript course at Epicodus.  
+####_April 1, 2016_
+This is a message board app template using Ember. It will let you update, ask, delete questions as well as get answers. It was made for a code review for the JavaScript course at Epicodus.  
 
-#### By _**{Mao Thygesen}**_
+
+#### By _**Mao Thygesen**_
 
 ## Prerequisites
 
@@ -40,12 +41,9 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ### License
 
-*{MIT}*
+*MIT*
 
-Copyright (c) 2015 **_{Mao Thygesen}_**
+Copyright (c) 2015 **_Mao Thygesen_**
