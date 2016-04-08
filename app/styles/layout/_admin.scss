@@ -1,0 +1,13 @@
+.adminTile {
+  border-bottom: 1px solid $mid-grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  font-size: 1.25em;
+  button {
+    height: 40px;
+    margin: 15px;
+    font-size: 0.7em;
+  }
+}

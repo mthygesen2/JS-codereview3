@@ -1,14 +1,11 @@
 <div class="wrapper">
+  <div class="navbar">
+    <span>{{#link-to 'index'}}Home{{/link-to}}</span>
+    <span>{{#link-to 'favorite'}}Favorite{{/link-to}}</span>
+  </div>
   <header>
-    {{#link-to 'index'}}<h1>Life is the bubbles</h1>{{/link-to}}
+    {{#link-to 'index'}}<h1>Message Board</h1>{{/link-to}}
     <p>Ember sample message board</p>
-    <div class="navbar">
-      <ul>
-
-        <li>{{#link-to 'index'}}Home{{/link-to}}</li>
-        <li>{{#link-to 'favorite'}}Favorite{{/link-to}}</li>
-      </ul>
-    </div>
   </header>
 
   <div class="container">
@@ -16,6 +13,7 @@
   </div>
 
   <footer>
+    <span>  {{#link-to 'admin'}}Admin{{/link-to}}  </span>
     <i class="fa fa-facebook"></i>
     <i class="fa fa-twitter"></i>
     <i class="fa fa-instagram"></i>

@@ -13,6 +13,7 @@ export default Ember.Component.extend({
           userName: this.get('userName'),
           comment: this.get('comment'),
         };
+  
         this.set('addNewQuestion', false);
         this.sendAction('save2', params);
       }

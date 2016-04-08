@@ -1,10 +1,12 @@
 <div class="questionTile">
   <li>
-  {{#link-to 'question' question.id}}
-    <h3>{{question.userQuestion}}</h3>
-  {{/link-to}}
-    <button {{action 'addToFavorite' question}}><i class="fa fa-star"></i></button>
+    {{#link-to 'question' question.id}}
+      <h3>  <span class="answerIcon">{{no-answers question}}</span> {{question.userQuestion}}</h3>
+    {{/link-to}}
     <p>{{question.userName}}</p>
-    {{update-question question=question update="update"}}
+    <div class="questionInfo">
+      {{update-question question=question update="update"}}
+      <button class="fav" {{action 'addToFavorite' question}}><i class="fa fa-star"></i></button>
+    </div>
   </li>
 </div>
