@@ -3,6 +3,7 @@
   {{#link-to 'question' question.id}}
     <h3>{{question.userQuestion}}</h3>
   {{/link-to}}
+    <button {{action 'addToFavorite' question}}>Add to Favorite</button>
     <p>{{question.userName}}</p>
     {{update-question question=question update="update"}}
   </li>
