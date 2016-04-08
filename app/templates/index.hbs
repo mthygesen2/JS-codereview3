@@ -4,6 +4,7 @@
   </div>
   <ul>
     {{#each model.questions as |question|}}
+      <span>{{no-answers question}}</span>
       {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
       <hr>
     {{/each}}
