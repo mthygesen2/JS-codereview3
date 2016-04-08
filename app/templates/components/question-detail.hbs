@@ -12,9 +12,8 @@
   {{new-answer question=question save="save"}}
   <div class="answerSection">
     <ul>
-      {{#each question.answers as |answer|}}
-
-        {{answer-tile answer=answer update="update" delete="delete"}}
+      {{#each sortedAnswers as |answer|}}
+        {{answer-tile answer=answer update="update" upVote="upVote" downVote="downVote" delete="delete"}}
       {{/each}}
     </ul>
   </div>

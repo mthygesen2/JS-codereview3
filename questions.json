@@ -9,6 +9,7 @@
   }],
   "answers": [{
     "answerUserName": "Mao",
-    "answerContent": "This is an answer"
+    "answerContent": "This is an answer",
+    "upvote": 2
   }]
 }
