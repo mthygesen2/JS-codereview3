@@ -11,11 +11,7 @@ export default Ember.Component.extend({
     update(answer, params) {
       this.sendAction('update', answer, params);
     },
-    delete(question) {
-      if (confirm('Are you sure you want to delete this question?')) {
-        this.sendAction('destroyQuestion', question);
-      }
-    },
+
     upVote(answer) {
       this.sendAction('upVote', answer);
     },
