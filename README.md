@@ -1,6 +1,7 @@
 # Message Board
 ####_April 1, 2016_
-This is a message board app template using Ember. It will let you update, ask, delete questions as well as get answers. It was made for a code review for the JavaScript course at Epicodus.  
+
+This is a message board application made by using Ember. It will let you update, ask, delete questions as well as get answers. There is also a feature to upvote and downvote answers to get the top rated comments to the top. It will also create conversation icon for questions that do not have any answers. The user will also have be able to favorite any question that will be saved for them to look at later. It was made for a code review for the JavaScript course at Epicodus.  
 
 
 #### By _**Mao Thygesen**_
